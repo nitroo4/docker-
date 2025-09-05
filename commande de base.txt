@@ -1,1 +1,54 @@
-test un dfgjhsdkfjhdsjk656+546+fsdjsdgfsqd64d6g4odshfgjksdhfk
+*****les commande de base *******
+
+.lister les conteneurs actifs et tous les conteneurs:
+        
+        docker ps
+        docker ps -a
+
+.Supprimer un conteneur inactif et Supprimer de force: 
+
+         docker rm [name conteneur]
+         docker rm -f [name conteneur]
+
+.Lister les images existants:
+
+         docker images
+
+.Supprimer une image Docker:
+
+         docker rmi [image]
+
+.activer conteneur:
+
+         docker start [id ou nom conteneur]
+
+.Exécuter des commandes dans un conteneur actif:
+
+         1 docker exec –t –i [id ou conteneur] bash  
+         2 docker exec -it [id ou conteneur] "bash meme chose"
+
+.voir la configuration du conteneur ou inspecter configuration du conteneur: 
+
+         docker inspect [name conteneur]
+
+.voir info sur docker:
+
+         docker info
+
+.recherche d'image (necessite un compte dockerhub):
+
+         docker search [nom image] --> ex: nginx ou ubuntu
+    -ensuite telecharger l'images:
+         docker pull [nom d image que tu as trouver]
+
+.importer ou construire images via dockerfile:
+
+         docker build –t [image] [chemin dockerfile] ""necessite un dockerfile""
+
+.Afficher l’historique d’une image
+
+         docker history [image]
+
+.Visualiser les logs d’un conteneur (les 5 derniéres lignes)
+
+         docker logs –-tail 5 [conteneur]
