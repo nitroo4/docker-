@@ -1,3 +1,5 @@
+petit introduction a docker:
+
 &nbsp;&nbsp;#dans terminal:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--voir version docker:<br>
 &nbsp;&nbsp;docker -v
