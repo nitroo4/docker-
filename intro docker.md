@@ -32,4 +32,6 @@
 apres ceration de conteneur.<br>
 &nbsp;&nbsp;-> docker start [name du conteneur ou id] <br>
 &nbsp;&nbsp;-> docker docker exec -it [name du conteneur ou id] bash
+&nbsp;&nbsp;-> docker docker exec -d [name du conteneur ou id] bash (mode detacher qui ve dire en arriere plan)
+
 
