@@ -18,11 +18,11 @@
  
  ## 1-1/ creer test:
 
- -- mkdir volumes
+ -- mkdir volumes  
 
- -- cd volumes 
+ -- cd volumes   
 
- -- touch index.html
+ -- touch index.html  
 
  -- pwd (chemin du fichier test pour mapper)
 
@@ -31,10 +31,10 @@
 
 ## dans conteneur: VA DANS le fichier pour voir les contenues.
 
-bonus( 
-    -- apt update 
-    -- apt install -y nano
-    -- nano [fichier] "tu peux modifier les contenues du fichier"
+bonus(  
+    -- apt update  
+    -- apt install -y nano  
+    -- nano [fichier] "tu peux modifier les contenues du fichier"  
     )
 
  ## ensuite :
