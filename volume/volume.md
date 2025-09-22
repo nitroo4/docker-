@@ -61,7 +61,7 @@ bonus(
 
 -- docker volume create test_volume
 
--- docker run -it---rm --name testVolume -v test_volumes:[pwd] [images] (docker va direct comprendre que c est un dossier manager)
+-- docker run -it --rm --name testVolume -v test_volumes:[pwd] [images] (docker va direct comprendre que c est un dossier manager)
 
 -- exit puis -docker ps -a (voir si conteneur a bien ete supprimer)
 
@@ -76,7 +76,7 @@ bonus(
     S'il y avait deja un dossier dans pwd qui existe deja avec des donnes et qu'on manage un volumes qui porte les meme nom alors docker va prendre en compte le dossier manager et ecraser les dossier existant voir meme tous supprimer et remplacer.
 
 
- 3) details dans volumes:
+ 3) details d'un volume:
     
  -- docker volume inspect [name volume]
 
