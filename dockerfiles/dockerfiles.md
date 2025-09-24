@@ -19,8 +19,8 @@ creer un fichier "Dockerfile" avec le contenu suivant: <br>
 <br>
 
 ensuite build l image:
- -- docker build -t [image] [chemin du dockerfile] 
 <br>
+ -- docker build -t [image] [chemin du dockerfile] 
  
 ## II/ Commande de base dockerfiles:
 
