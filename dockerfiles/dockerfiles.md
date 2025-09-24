@@ -4,17 +4,24 @@ I/ dockerfiles permet de creer un images personnalise a partir d'une image de ba
 
 exemple de dockerfile:
 
-creer un fichier "Dockerfile" avec le contenu suivant:
+creer un fichier "Dockerfile" avec le contenu suivant: <br>
 
  FROM ubuntu
  MAINTAINER mickael
  RUN apt-get update && apt-get install -y nano && apt-get install -y iputils-ping && apt-get install -y iproute2
 
+<br>
+
 1) ici l'image de base est ubuntu. 
 2) on update les conteneurs.
 3) on installe nano, iputils-ping pour les ping et iproute2 pour les ip.
 
+<br>
 
+ensuite build l image:
+ -- docker build -t [image] [chemin du dockerfile] 
+<br>
+ 
 ## II/ Commande de base dockerfiles:
 
     1) FROM : permet de definir l'image de base.
