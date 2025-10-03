@@ -38,3 +38,9 @@ remaque le conteneur doit pouvoir faire 'ip '
 7. deconnetcer un conteneur a un reseau: 
 
 -- docker network disconnect [name_reseau] [name_conteneur]
+
+
+8. supprimer reseau: 
+
+-- docker network rm [name_reseau]
+

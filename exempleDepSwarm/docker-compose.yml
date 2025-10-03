@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+
+#manager et base de donnes
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: mydb
+    ports:
+      - "3306:3306"
+    deploy:
+      replicas: 1
+      placement:
+        constraints:
+          - node.role == manager
+      restart_policy:
+        condition: on-failure
+
+#pour le project les workers 
+  php:
+    image: php:la      
+    ports:
+      - "8082:80"
+    deploy:
+      replicas: 2
+      restart_policy:
+        condition: on-failure
+
+# conteneur pour interface phpmyadmin
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    environment:
+      PMA_HOST: db
+      PMA_USER: root
+      PMA_PASSWORD: rootpassword
+    ports:
+      - "8083:80"
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
