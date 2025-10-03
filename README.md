@@ -24,3 +24,13 @@
   <h1>IV/ Dockerfiles:</h1><br>
   <a href="/dockerfiles/dockerfiles.md">introduction a dockerfiles et commandes<a> <br>
   <a href="/dockerfiles/Dockerfile">exemple de dockerfiles<a>
+
+  <h1>V/ Compose:</h1><br>
+  <a href="/compose/composer.md">docker-compose<a> <br>
+
+  <h1>VI/ Swarm:</h1><br>
+  <a href="/swarm/dockerSwarm.md">docker swarm<a> <br>
+
+  <h1>VII/ Exemple de project a deployer:</h1><br>
+  <a href="/DepGestion/petit test.md">depoiement sans replicas (test dossier DepGestion)<a> <br>
+  <a href="/exempleDepSwarm/etape deploy.md">depoiement avec replicas (test dossier exempleDepSwarm)<a> <br>
