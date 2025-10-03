@@ -1,6 +1,4 @@
 # DOCKER 
-<h1>Mickael soloarinandrasana</h1>
-<h1>L1 C <br> MATRICULE: 227/LA/24-25</h1>
 
  A savoir: ---  
   Pour avoir des conteneurs ,il faut d abord avoir des images de base pour le conteneur.(on peut trouver les images sur dockehub).
@@ -33,4 +31,5 @@
 
   <h1>VII/ Exemple de project a deployer:</h1><br>
   <a href="/DepGestion/petit test.md">depoiement sans replicas (test dossier DepGestion)<a> <br>
+
   <a href="/exempleDepSwarm/etape deploy.md">depoiement avec replicas (test dossier exempleDepSwarm)<a> <br>
