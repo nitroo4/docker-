@@ -34,3 +34,7 @@
   <h1>VII/ Exemple de project a deployer:</h1><br>
   <a href="/DepGestion/petit test.md">depoiement sans replicas (test dossier DepGestion)<a> <br>
   <a href="/exempleDepSwarm/etape deploy.md">depoiement avec replicas (test dossier exempleDepSwarm)<a> <br>
+
+  <h1>VIII/ Cours CI/CD:</h1><br>
+  <a href="/CI_cd/cours.md">base<a> <br>
+  
